@@ -1,0 +1,15 @@
+[gd_resource type="ShaderMaterial" format=4 uid="uid://cl3oblk0pit0i"]
+
+[ext_resource type="Shader" uid="uid://ds021qk1e0prk" path="res://LavaLight.gdshader" id="1_x31n0"]
+
+[resource]
+render_priority = -10
+shader = ExtResource("1_x31n0")
+shader_parameter/color = Color(0.9254902, 0.2901961, 0.24313726, 1)
+shader_parameter/emission = Color(3.2944162, 1.1752357, 0.4688424, 1)
+shader_parameter/unionSmoothness = 0.4499999899416
+shader_parameter/surfaceRoughness = 0.80999998189488
+shader_parameter/noiseScale = 1000.0
+shader_parameter/liquidColor = Color(0.73398, 0.31980002, 0.78, 1)
+shader_parameter/liquidAlpha = 0.57999998703584
+shader_parameter/sphereList = PackedVector4Array(0, 0.33, 0, 0.1, 0, 0.5, 0, 0.15, 0, 0.765, 0, 0.1, 0, -0.31, 0, 0.39, 0, 1.15, 0, 0.2)
